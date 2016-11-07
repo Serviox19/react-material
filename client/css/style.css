@@ -1,3 +1,29 @@
+/* #### RESET #### */
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/* #### RESET #### */
+
+body {
+  background-color: #F0FFF0;
+}
+
+.container {
+  margin: 0 50px;
+}
+
 .title {
-  color: red;
+  font-family: "Verdana", "Helvetica" sans-serif;
+  font-size: 30px;
+}
+
+.link {
+  font-family: "Verdana", "Helvetica" sans-serif;
+  color: white;
+  vertical-align: middle;
 }

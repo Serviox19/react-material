@@ -5,7 +5,7 @@ export default class Home extends TrackerReact(React.Component) {
   render() {
     return(
       <div>
-          <h2>Home</h2>
+          <h1>Home</h1>
       </div>
     )
   }

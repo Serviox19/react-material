@@ -8,6 +8,8 @@ export const MainLayout = ({content}) => (
     <MuiThemeProvider>
       <AppBarComponent />
     </MuiThemeProvider>
-    {content}
+    <div className="container">
+      {content}
+    </div>
   </div>
 )
