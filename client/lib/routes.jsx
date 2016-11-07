@@ -14,9 +14,7 @@ import Signup from '../views/Signup.jsx';
 FlowRouter.route('/', {
   action() {
     mount(MainLayout, {
-      content: (
-        <Home />
-      )
+      content: (<Home />)
     });
   }
 });

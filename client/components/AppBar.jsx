@@ -1,12 +1,18 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
+import FlatButton from 'material-ui/FlatButton';
 
 
-const AppBarExampleIcon = () => (
+const AppBarComponent = () => (
   <AppBar
-    title="Welcome To the Home Page"
-    iconClassNameRight="muidocs-icon-navigation-expand-more"
+    title={<span className="title">Hello</span>}
+    iconElementRight={<FlatButton label="Login" />}
+    onRightIconButtonTouchTap={
+      function() {
+        alert("Hello World");
+      }
+    }
   />
 );
 
-export default AppBar;
+export default AppBarComponent;
