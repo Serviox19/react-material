@@ -3,11 +3,16 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton';
 
 const style = {
-
+  cardStyle: {
+    width: '60%',
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  }
 };
 
 const CardComponent = () => (
   <Card
+    style={style.cardStyle}
     zDepth={5}>
     <CardHeader
       title="Servio Mora"
@@ -22,9 +27,6 @@ const CardComponent = () => (
     <CardTitle title="Card title" subtitle="Card subtitle" />
     <CardText>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-      Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-      Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
     </CardText>
     <CardActions>
       <FlatButton label="Action1" />
