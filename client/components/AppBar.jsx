@@ -3,10 +3,6 @@ import AppBar from 'material-ui/AppBar';
 import FlatButton from 'material-ui/FlatButton';
 import NavIconMenu from './NavMenu';
 
-// function toggleNav() {
-//   alert('Toggled Navigation');
-// }
-
 
 const AppBarComponent = () => (
   <AppBar
